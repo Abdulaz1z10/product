@@ -1,0 +1,991 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    background: #1F2E35;
+}
+
+.header{
+    padding:23px 0px;
+    width: 100%;
+height: 80px;
+flex-shrink: 0;
+display: flex;
+    img{
+        width: 40px;
+    height: 36.364px;
+    flex-shrink: 0;
+    }
+    h2{
+        padding: 5px;
+        color: #FFF;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 93.333% */
+    }
+    ul{
+        margin-left: 350px;
+        display: flex;
+        gap: 20px;
+        text-decoration: none;
+        li{
+            display: flex;
+            color: #FFF;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+        }
+    }
+    span{
+        img{
+            display: none;
+        }
+    }
+    button{
+        margin-left: 24px;
+    }
+    .btn-outline-secondary{
+        width: 102px;
+        height: 43px;
+        color: white;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid #BCD0E5;
+    }
+    .btn-success{
+        width: 110px;
+        height: 43px;
+        flex-shrink: 0;
+    }
+    .logo2{
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;align-items: center;
+    }
+}
+
+.pricing{
+    width: 1110px;
+    height: 673px;
+    flex-shrink: 0;
+    .text-1{
+        padding-left: 100px;
+        color: #FFF;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .mini_pricing{
+        margin-top: 32px;
+        color: #FFF;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .mini_pricing2{
+        color: #FFF;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .row{
+        margin-left: 100px;
+        gap: 50px;
+    }
+    .col-4{
+        margin-top: 40px;
+        width: 300px;
+        height: 456px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+        h3{
+            padding-top: 24px;
+            padding-right: 100px;
+            color: #22343D;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px; /* 166.667% */
+        }
+        p{
+            display: flex;
+            justify-content: center;
+            color: #22343D;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 250% */
+        }
+    }
+    .numbers{
+        margin-left: 90px;
+        align-items: center;
+        display: flex;
+        width: 154px;
+        height: 100px;
+        flex-shrink: 0;
+        .numbers_p{
+            color: #02897A;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 76px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100px; /* 131.579% */
+            letter-spacing: 0.2px;
+        }
+        .mini-numbers{
+            padding-left: 5px;
+            .dollars{
+                width: 16px;
+                height: 29px;
+                flex-shrink: 0;
+                color: #02897A;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px; /* 125% */
+                letter-spacing: 0.1px;
+            }
+            h4{
+                width: 96px;
+                height: 19px;
+                flex-shrink: 0;
+                color: #AFAFAF;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 19px; /* 118.75% */
+                letter-spacing: 0.1px;
+            }
+        }
+    }
+    .group{
+        margin-left: 40px;
+        width: 134px;
+        height: 98px;
+        flex-shrink: 0;
+        .group_mini{
+            color: #22343D;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 137.5% */
+            letter-spacing: 0.2px;
+        } 
+    }
+    button{
+        border: none;
+        color: #FFF;
+        padding-left: 90px;
+        display: inline-flex;
+        padding: 11px 19px 11px 18px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: #02897A;
+        color: #FFF;
+        display: flex;
+        margin:30px auto;
+    }
+    .text-center1{
+        padding-left: 100px;
+        color: #fff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .mini_pricing{
+        margin-top: 32px;
+        color: #FFF;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .mini_pricing2{
+        color: #FFF;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .row{
+        margin-left: 100px;
+        gap: 50px;
+    }
+    .col-4{
+        margin-top: 40px;
+        width: 300px;
+        height: 456px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+        .text-center1{
+            padding-top: 24px;
+            padding-right: 100px;
+            color: #fff;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 40px; /* 166.667% */
+        }
+        .yy{
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px; /* 250% */
+        }
+    }
+    .numbers1{
+        margin-left: 90px;
+        align-items: center;
+        display: flex;
+        width: 154px;
+        height: 100px;
+        flex-shrink: 0;
+        .numbers_p1{
+            color: #fff;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 76px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100px; /* 131.579% */
+            letter-spacing: 0.2px;
+        }
+        .mini-numbers1{
+            padding-left: 5px;
+            .dollars1{
+                width: 16px;
+                height: 29px;
+                flex-shrink: 0;
+                color: #fff;
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px; /* 125% */
+                letter-spacing: 0.1px;
+            }
+            h4{
+                width: 96px;
+                height: 19px;
+                flex-shrink: 0;
+                color: #AFAFAF;
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 19px; /* 118.75% */
+                letter-spacing: 0.1px;
+            }
+        }
+    }
+    .group1{
+        margin-left: 70px;
+        width: 134px;
+        height: 98px;
+        flex-shrink: 0;
+        .group_mini1{
+            color: #fff;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px; /* 137.5% */
+            letter-spacing: 0.2px;
+        } 
+    }
+    .button1{
+        border: none;
+        color: #02837a;
+        padding-left: 90px;
+        display: inline-flex;
+        padding: 11px 19px 11px 18px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: #fff;
+        display: flex;
+        margin:30px auto;
+    }
+}
+
+
+@media (min-width:990px) and (max-width:1200px){
+    .container{
+        margin-right: 50px;
+        .header{
+            margin-right: 100px;
+            padding-right: 50px;
+        }
+    }
+}
+@media (min-width:770px) and (max-width:990){
+    .container{
+        margin: 0 auto;
+        .header{
+            ul{
+                margin-left: 250px;
+            }
+        }
+    }
+}
+@media (max-width:770px){
+    .header{
+        ul{
+            margin-left: 200px;
+        }
+    }
+    .container{
+        .pricing{
+            .text-center{
+                margin-right: 20px;
+            }
+            .row{
+                margin-left: 40px;
+            }
+        }
+    }
+}
+@media (max-width:470px){
+    .header{
+        .header img{
+            margin-left: 50px;
+        }
+        ul{
+            display: none;
+        }
+        button{
+            display: none;
+        }
+        .logo2{
+            display: none;
+        }
+        span{
+            img{
+                margin-left: 750px;
+                display: block;
+            }
+        }
+    }
+    .pricing{
+        .text-1{
+            color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 54px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+        }
+        .mini_pricing{
+            margin-left: 350px;
+            width: 400px;
+            font-size: 54px;
+        }
+        .mini_pricing2{
+            margin-left: 380px;
+            width: 400px;
+            font-size: 34px;
+        }
+        .row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 400px;
+            width: 800px;
+        }
+    }
+}
+.enterprice{
+    padding-top: 150px;
+    width: 100%;
+height: 318px;
+flex-shrink: 0;
+margin: 10 auto;
+.enterprice-h4{
+    margin-left: 520px;
+    color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.enterprice-p{
+    width: 800px;
+    padding: 5px 0;
+    margin-left: 250px;
+    color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.enterprice-p2{
+    width: 700px;
+    margin-left: 350px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.enterprice-button{
+    width: 200px;
+    margin-left: 500px;
+padding: 11px 18px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #02897A;
+border: none;
+color: #FFF;
+}
+}
+@media (min-width:990px) and (max-width:1200px){
+    .enterprice{
+        .enterprice-h4{
+            display: flex;
+            justify-content: center;
+            margin-right: 200px;
+        }
+        .enterprice-p{
+            width: 900px;
+            display: flex;
+        }
+    }
+}
+@media (min-width:770px) and (max-width:990px){
+    .enterprice{
+        .enterprice-p{
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 100px;
+        }
+    }
+}
+@media (min-width:470px) and (max-width:770px){
+    .enterprice{
+        flex-direction: column;
+        margin: 0 auto;
+        .enterprice-h4{
+            display: flex;
+            justify-content: center;
+            font-size: 54px;
+        }
+        .enterprice-p{
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 100px;
+            margin-right: 100px;
+        }
+        .enterprice-p2{
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .enterprice-button{
+            margin-right: 100px;
+        }
+    }
+}
+@media (max-width:470px){
+    .enterprice{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1400px;
+        .enterprice-h4{
+            font-size: 54px;
+        }
+        .enterprice-p{
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 200px;
+        }
+        .enterprice-p2{
+            width: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 100px;
+        }
+        .enterprice-button{
+            margin-right: 200px;
+        }
+    }
+}
+.product{
+    width: 1131px;
+height: 534px;
+flex-shrink: 0;
+margin: 0 auto;
+margin-top: 201px;
+
+.product-text{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.product-mix{
+    display: flex;
+    padding-top: 15px;
+    .amico2{
+        display: none;
+    }
+   .product-mix-text{
+    margin-left: 20px;
+    .trio-text{
+        display: flex;
+        padding: 12px;
+        color: #FFF;
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .trio-p{
+        display: flex;
+        margin-left: 10px;
+        width: 533px;
+        color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+    }
+   }
+}
+}
+@media (max-width:470px){
+    .product{
+        display: flex;
+        flex-direction: column;
+        .product-text{
+            width: 342px;
+            display: flex;
+            justify-content: center;
+            margin-left: 480px;
+        }
+        .amico{
+            width: 271.999px;
+            height: 255.109px;
+            flex-shrink: 0;
+            margin-left: 480px;
+        }
+        .product-mix{
+            display: flex;
+            flex-direction: column;
+            .amico{
+                display: none;
+            }
+            .amico2{
+                display: block;
+                width: 352px;
+                height: 288.209px;
+                flex-shrink: 0;
+                margin-left: 460px;
+            }
+        }
+        .product-mix-text{
+            padding-left: 450px;
+            .product-trio{
+                .trio-text{
+                    width: 169.412px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+                .trio-p{
+                    width: 280px;
+                }
+            }
+        }
+    }
+}
+
+.frequently{
+    width: 920px;
+height: 468px;
+flex-shrink: 0;
+margin: 0 auto;
+margin-top: 160px;
+.frequently-text{
+    color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.frequently-mini-text{
+    color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.frequently-plus{
+    display: flex;
+    padding-top: 10px;
+    .plus-text{
+        padding-left: 16px;
+        color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .minus-text{
+        padding-left: 16px;
+        color: #22343D;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+}
+.plus-text1{
+    width: 820px;
+    color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.border{
+    background: #474747;
+}
+}
+@media (min-width:990px) and (max-width:1200px){
+    .frequently{
+        margin-left: 120px;
+    }
+}
+@media (min-width:770px) and (max-width:989px){
+    .frequently{
+        margin-left: 100px;
+    }
+}
+@media (min-width:470px) and (max-width:769px){
+    .frequently{
+        margin-left: 80px;
+        .frequently-text{
+            color: #FFF;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+@media (max-width:470px){
+    .frequently{
+        margin-top: 600px;
+        margin-left: 480px;
+        .frequently-text{
+            width: 326px;
+            color: #FFF;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .frequently-mini-text{
+            width: 326px;
+            color: #FFF;
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .border{
+            width: 345px;
+            height: 1px;
+        }
+        .frequently-plus{
+            width: 411px;
+        }
+        .plus-text1{
+            width: 355px;
+            color: #FFF;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+.join{
+    margin: 150px auto 0;
+    width: 968px;
+height: 345px;
+flex-shrink: 0;
+border-radius: 32px;
+background: #02897A;
+display: flex;
+.join-text2{
+    padding: 49px 0 0 51px;
+    width: 510px;
+height: 92px;
+flex-shrink: 0;
+color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 151.4%; /* 48.448px */
+}
+.join-btn{
+    margin-left: 150px;
+    margin: 120px 51px 0 ;
+    display: inline-flex;
+padding: 10px 35px 10px 33px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #FFF;
+border: none;
+color: #22343D;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+}
+@media (min-width:990px) and (max-width:1200px){
+    .join{
+        margin-left: 120px;
+    }
+}
+@media (min-width:770px) and (max-width:989px){
+    .join{
+        margin-left: 100px;
+    }
+}
+@media (min-width:470px) and (max-width:769px){
+    .join{
+        margin-left: 80px;
+    }
+}
+@media (max-width:470px){
+    .join{
+        width: 371px;
+        height: 688px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        margin-left: 470px;
+        .join-text2{
+            padding-left: 30px;
+            width: 328px;
+            height: 144px;
+            flex-shrink: 0;
+            color: #FFF;
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 151.4%; /* 48.448px */
+        }
+        .join-btn{
+            display: inline-flex;
+padding: 10px 34px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #FFF;
+color: #02897A;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 120px;
+}
+    }
+    .join-image{
+        width: 351px;
+height: 331px;
+border-radius: 5px;
+padding-right: 50px;
+    }
+}
+
+.footer{
+    display: flex;
+    gap: 140px;
+    margin-top: 160px;
+    width: 1109px;
+height: 246px;
+flex-shrink: 0;
+.image-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+    .icons12{
+        width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #EDFFFC;
+    border-radius: 50%;
+    }
+}
+.footer2{
+    display: inline-flex;
+padding: 0px 24px 27px 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+.footer-big-text{
+    width: 150px;
+    color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+}
+.footer-mini-text{
+    color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 218.75% */
+}
+}
+.footer3{
+    width: 325px;
+height: 199px;
+flex-shrink: 0;
+.footer3-text{
+    width: 280px;
+height: 57px;
+flex-shrink: 0;
+color: #FFF;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+input{
+    margin-top: 34px;
+    width: 325px;
+height: 48px;
+flex-shrink: 0;
+color: #fff;
+font-family: ProximaNova;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+border-radius: 4px;
+border: 1px solid #BCD0E5;
+background: #FFF;
+border: none;
+}
+.footer-btn{
+    margin-top: 21px;
+    width: 131px;
+height: 39px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #02897A;
+border: none;
+color: #FFF;
+color: #FFF;
+text-align: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+}
+}
+@media (max-width:470px){
+    .footer{
+        width: 400px;
+        margin-left: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+}
