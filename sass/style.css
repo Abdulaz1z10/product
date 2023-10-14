@@ -5,13 +5,13 @@
 }
 
 body {
-  margin: 0 auto;
   background: #1F2E35;
 }
 
 .header {
+  margin-left: 70px;
   padding: 23px 0px;
-  width: 100%;
+  width: 1000px;
   height: 80px;
   flex-shrink: 0;
   display: flex;
@@ -31,7 +31,7 @@ body {
   line-height: 28px; /* 93.333% */
 }
 .header ul {
-  margin-left: 350px;
+  margin-left: 190px;
   display: flex;
   gap: 20px;
   text-decoration: none;
@@ -86,7 +86,8 @@ body {
   line-height: normal;
 }
 .pricing .mini_pricing {
-  margin-top: 32px;
+  padding-left: 100px;
+  padding-top: 22px;
   color: #FFF;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -96,6 +97,7 @@ body {
   line-height: normal;
 }
 .pricing .mini_pricing2 {
+  padding-left: 80px;
   color: #FFF;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -105,7 +107,9 @@ body {
   line-height: normal;
 }
 .pricing .row {
-  margin-left: 100px;
+  width: 1110px;
+  display: flex;
+  padding-left: 30px;
   gap: 50px;
 }
 .pricing .col-4 {
@@ -119,7 +123,6 @@ body {
 }
 .pricing .col-4 h3 {
   padding-top: 24px;
-  padding-right: 100px;
   color: #22343D;
   font-family: Poppins;
   font-size: 24px;
@@ -138,7 +141,7 @@ body {
   line-height: 40px; /* 250% */
 }
 .pricing .numbers {
-  margin-left: 90px;
+  padding-left: 60px;
   align-items: center;
   display: flex;
   width: 154px;
@@ -183,7 +186,7 @@ body {
   letter-spacing: 0.1px;
 }
 .pricing .group {
-  margin-left: 40px;
+  margin-left: 70px;
   width: 134px;
   height: 98px;
   flex-shrink: 0;
@@ -348,33 +351,58 @@ body {
 
 @media (min-width: 990px) and (max-width: 1200px) {
   .container {
-    margin-right: 50px;
+    padding: 0 50px;
   }
   .container .header {
-    margin-right: 100px;
-    padding-right: 50px;
+    margin-left: 130px;
+    width: 1000px;
+    padding: 0 120px 0 0;
+    font-size: 30px;
   }
 }
 @media (min-width: 770px) and (max-width: 990) {
   .container {
-    margin: 0 auto;
+    padding: 0 80px;
+  }
+  .container .header {
+    padding-right: 150px;
   }
   .container .header ul {
-    margin-left: 250px;
+    margin-left: 180px;
+  }
+  .container .header ul li {
+    font-size: 30px;
   }
 }
 @media (max-width: 770px) {
+  .header {
+    width: 700px;
+    margin-left: 40px;
+  }
   .header ul {
-    margin-left: 200px;
+    padding-left: 80px;
+  }
+  .header ul li {
+    font-size: 20px;
+    font-weight: 400;
   }
   .container .pricing .text-center {
+    padding-top: 30px;
+    font-size: 30px;
     margin-right: 20px;
   }
   .container .pricing .row {
-    margin-left: 40px;
+    width: 900px;
+    display: flex;
+    padding-left: 130px;
+    gap: 70px;
   }
 }
 @media (max-width: 470px) {
+  .header {
+    padding-left: 250px;
+    font-size: 50px;
+  }
   .header .header img {
     margin-left: 50px;
   }
@@ -388,8 +416,11 @@ body {
     display: none;
   }
   .header span img {
-    margin-left: 750px;
+    margin-left: 550px;
     display: block;
+  }
+  .pricing {
+    padding-left: 170px;
   }
   .pricing .text-1 {
     color: #FFF;
@@ -398,23 +429,50 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    padding-left: 140px;
   }
   .pricing .mini_pricing {
-    margin-left: 350px;
-    width: 400px;
+    padding-left: 250px;
+    width: 800px;
     font-size: 54px;
+    font-weight: 900;
   }
   .pricing .mini_pricing2 {
-    margin-left: 380px;
-    width: 400px;
+    padding-left: 250px;
+    width: 800px;
     font-size: 34px;
   }
   .pricing .row {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 400px;
+    margin-left: 250px;
     width: 800px;
+    gap: 20px;
+  }
+  .pricing .row .col-4 {
+    margin-top: 40px;
+    width: 300px;
+    height: 456px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  }
+  .pricing .row .col-4 .text-center {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .pricing .row .col-4 .yy {
+    font-size: 24px;
+  }
+  .pricing .row .col-4 .group_mini {
+    width: 200px;
+    font-size: 20px;
+    padding-right: 55px;
+  }
+  .pricing .row .col-4 .group_mini1 {
+    width: 200px;
+    font-size: 20px;
+    padding-right: 55px;
   }
 }
 .enterprice {
@@ -425,7 +483,7 @@ body {
   margin: 10 auto;
 }
 .enterprice .enterprice-h4 {
-  margin-left: 520px;
+  padding-left: 550px;
   color: #FFF;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
@@ -478,18 +536,30 @@ body {
   }
 }
 @media (min-width: 770px) and (max-width: 990px) {
+  .enterprice .enterprice-h4 {
+    font-size: 36px;
+  }
   .enterprice .enterprice-p {
-    width: 500px;
+    width: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 100px;
+    padding-left: 130px;
+  }
+  .enterprice .enterprice-p2 {
+    font-size: 22px;
+  }
+  .enterprice .enterprice-button {
+    margin-left: 540px;
   }
 }
 @media (min-width: 470px) and (max-width: 770px) {
   .enterprice {
+    padding-left: 50px;
+    padding-top: 700px;
     flex-direction: column;
     margin: 0 auto;
+    padding-bottom: 200px;
   }
   .enterprice .enterprice-h4 {
     display: flex;
@@ -497,48 +567,55 @@ body {
     font-size: 54px;
   }
   .enterprice .enterprice-p {
-    width: 500px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 100px;
-    margin-right: 100px;
+    margin-left: 380px;
   }
   .enterprice .enterprice-p2 {
     width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 25px;
   }
   .enterprice .enterprice-button {
-    margin-right: 100px;
+    width: 260px;
+    font-size: 25px;
+    margin-left: 430px;
   }
 }
 @media (max-width: 470px) {
   .enterprice {
+    margin-bottom: 300px;
+    margin-right: 80px;
     display: flex;
     flex-direction: column;
-    margin-top: 1400px;
+    margin-top: 1300px;
   }
   .enterprice .enterprice-h4 {
     font-size: 54px;
   }
   .enterprice .enterprice-p {
-    width: 500px;
+    width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 200px;
+    padding-left: 280px;
   }
   .enterprice .enterprice-p2 {
     width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 100px;
+    padding-left: 180px;
+    font-size: 25px;
   }
   .enterprice .enterprice-button {
-    margin-right: 200px;
+    width: 260px;
+    margin-left: 550px;
+    font-size: 25px;
   }
 }
 .product {
@@ -591,16 +668,62 @@ body {
   line-height: 28px; /* 175% */
 }
 
+@media (min-width: 990px) and (max-width: 1200px) {
+  .product {
+    margin-left: 50px;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  .product {
+    padding-left: 50px;
+  }
+  .product .product-text {
+    margin-left: 100px;
+  }
+  .product .product-mix {
+    padding-left: 50px;
+  }
+}
+@media (min-width: 470px) and (max-width: 770px) {
+  .product {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 600px;
+  }
+  .product .product-text {
+    margin-left: 80px;
+    width: 900px;
+    padding-left: 200px;
+  }
+  .product .product-mix {
+    flex-direction: column;
+  }
+  .product .product-mix .amico {
+    width: 900px;
+    padding-left: 300px;
+  }
+  .product .product-mix .product-mix-text {
+    padding-top: 50px;
+    margin-left: 400px;
+  }
+  .product .product-mix .product-mix-text .trio-text {
+    font-size: 30px;
+  }
+  .product .product-mix .product-mix-text .trio-p {
+    font-size: 20px;
+  }
+}
 @media (max-width: 470px) {
   .product {
     display: flex;
     flex-direction: column;
   }
   .product .product-text {
-    width: 342px;
+    width: 542px;
     display: flex;
     justify-content: center;
     margin-left: 480px;
+    font-size: 40px;
   }
   .product .amico {
     width: 271.999px;
@@ -617,7 +740,7 @@ body {
   }
   .product .product-mix .amico2 {
     display: block;
-    width: 352px;
+    width: 452px;
     height: 288.209px;
     flex-shrink: 0;
     margin-left: 460px;
@@ -630,13 +753,14 @@ body {
     color: #FFF;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
   }
   .product .product-mix-text .product-trio .trio-p {
-    width: 280px;
+    width: 380px;
+    font-size: 25px;
   }
 }
 .frequently {
@@ -715,7 +839,7 @@ body {
 }
 @media (min-width: 470px) and (max-width: 769px) {
   .frequently {
-    margin-left: 80px;
+    margin-left: 150px;
   }
   .frequently .frequently-text {
     color: #FFF;
@@ -726,14 +850,21 @@ body {
     font-weight: 700;
     line-height: normal;
   }
+  .frequently .plus-text {
+    font-size: 30px;
+  }
+  .frequently .plus-text1 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 470px) {
   .frequently {
+    width: 600px;
     margin-top: 600px;
-    margin-left: 480px;
+    margin-left: 380px;
   }
   .frequently .frequently-text {
-    width: 326px;
+    width: 526px;
     color: #FFF;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -743,27 +874,33 @@ body {
     line-height: normal;
   }
   .frequently .frequently-mini-text {
-    width: 326px;
+    width: 526px;
     color: #FFF;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 18px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
   .frequently .border {
-    width: 345px;
+    margin-left: 50px;
+    width: 445px;
     height: 1px;
   }
   .frequently .frequently-plus {
+    padding-left: 50px;
     width: 411px;
   }
+  .frequently .plus-text {
+    font-size: 30px;
+  }
   .frequently .plus-text1 {
-    width: 355px;
+    padding-left: 50px;
+    width: 455px;
     color: #FFF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -820,17 +957,19 @@ body {
 }
 @media (min-width: 470px) and (max-width: 769px) {
   .join {
-    margin-left: 80px;
+    margin-left: 130px;
   }
 }
 @media (max-width: 470px) {
   .join {
-    width: 371px;
+    margin-top: 250px;
+    width: 471px;
     height: 688px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    margin-left: 470px;
+    padding-left: 50px;
+    margin-left: 400px;
   }
   .join .join-text2 {
     padding-left: 30px;
@@ -871,7 +1010,7 @@ body {
   display: flex;
   gap: 140px;
   margin-top: 160px;
-  width: 1109px;
+  width: 1000px;
   height: 246px;
   flex-shrink: 0;
 }
@@ -961,11 +1100,41 @@ body {
   line-height: normal;
 }
 
+@media (min-width: 990px) and (max-width: 1200px) {
+  .footer {
+    padding-left: 55px;
+    gap: 90px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  .footer {
+    display: flex;
+    width: 600px;
+    margin-bottom: 50px;
+  }
+  .footer .footer2 {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 470px) {
   .footer {
     width: 400px;
     margin-left: 500px;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .footer .footer2 .footer-big-text {
+    font-size: 30px;
+  }
+  .footer .footer2 .footer-mini-text {
+    font-size: 22px;
+  }
+  .footer .footer3 .footer3-text {
+    width: 400px;
+    font-size: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
